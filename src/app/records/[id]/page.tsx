@@ -130,11 +130,24 @@ export default async function RecordDetailPage({ params }: Props) {
                             {characters.map((rc) => {
                                 const iconName = (IconMap as any)[rc.character?.name || ''] || '';
                                 const iconUrl = iconName ? `https://enka.network/ui/${iconName}.png` : null;
+                                const splashName = iconName.replace('UI_AvatarIcon_Side_', 'UI_Gacha_AvatarImg_');
+                                const splashUrl = iconName ? `https://enka.network/ui/${splashName}.png` : null;
 
                                 return (
-                                    <div key={rc.character_id} className="group flex items-center gap-4 p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-purple-500/30 transition-all">
+                                    <div key={rc.character_id} className="group relative flex items-center gap-4 p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-purple-500/30 transition-all overflow-hidden">
+                                        {/* Splash Art Background */}
+                                        {splashUrl && (
+                                            <div className="absolute inset-0 pointer-events-none opacity-[0.5] transition-opacity duration-300">
+                                                <img
+                                                    src={splashUrl}
+                                                    alt=""
+                                                    className="absolute -right-18 top-0 h-32 w-auto object-cover object-top scale-[1.5]"
+                                                />
+                                            </div>
+                                        )}
+
                                         <div className={`
-                                            relative w-14 h-14 rounded-full border-2 overflow-hidden bg-black/40 shadow-lg
+                                            relative z-10 w-14 h-14 rounded-full border-2 overflow-hidden bg-black/40 shadow-lg
                                             ${rc.character?.element === 'Pyro' ? 'border-red-500' :
                                                 rc.character?.element === 'Hydro' ? 'border-blue-500' :
                                                     rc.character?.element === 'Cryo' ? 'border-cyan-500' :
@@ -150,7 +163,7 @@ export default async function RecordDetailPage({ params }: Props) {
                                             )}
                                         </div>
 
-                                        <div className="flex-1">
+                                        <div className="flex-1 relative z-10">
                                             <div className="font-bold text-white group-hover:text-purple-300 transition-colors">
                                                 {CHARACTER_MAP[rc.character?.name || ''] || rc.character?.name}
                                             </div>
