@@ -46,14 +46,30 @@ export default async function RecordDetailPage({ params }: Props) {
     const typedRecord = record as unknown as RecordWithDetails
     const characters = typedRecord.record_characters || []
 
-    // Format time (ms -> hh:mm:ss)
+    // Format time (ms -> hh:mm:ss.ms)
     const formatTime = (ms: number | undefined) => {
-        if (!ms) return "--:--:--";
+        if (!ms) return "00:00:00";
         const hours = Math.floor(ms / 3600000);
         const min = Math.floor((ms % 3600000) / 60000);
         const sec = Math.floor((ms % 60000) / 1000);
-        return `${hours.toString().padStart(2, '0')}:${min.toString().padStart(2, '0')}:${sec.toString().padStart(2, '0')}`;
+        const msLeft = ms % 1000;
+        return `${hours.toString().padStart(2, '0')}:${min.toString().padStart(2, '0')}:${sec.toString().padStart(2, '0')}.${msLeft.toString().padStart(3, '0')}`;
     };
+
+    // Parse category slug (WL9_NPuILow -> { wl: "WL 9", cost: "低凸" })
+    const parseCategory = (slug: string) => {
+        if (!slug) return { wl: 'Unknown', cost: 'Unknown' };
+        const parts = slug.split('_');
+        const wlPart = parts[0] || 'WL9';
+        const wlNum = wlPart.replace('WL', '');
+        const costType = parts[1]?.endsWith('Low') ? '低凸' : '制限なし';
+        return {
+            wl: `WL ${wlNum}`,
+            cost: `Cost ${costType}`
+        };
+    };
+
+    const categoryInfo = parseCategory(typedRecord.category_slug || '');
 
     return (
         <div className="container mx-auto max-w-5xl py-12 px-4 pb-32">
@@ -69,17 +85,17 @@ export default async function RecordDetailPage({ params }: Props) {
                     <div className="flex-1">
                         <div className="flex flex-wrap items-center gap-3 text-purple-400 font-bold tracking-widest text-xs mb-4 uppercase">
                             <span className="px-2 py-0.5 bg-purple-500/20 border border-purple-500/30 rounded text-purple-300">
-                                {typedRecord.category_slug || 'Unknown Category'}
+                                {categoryInfo.wl}
+                            </span>
+                            <span className="px-2 py-0.5 bg-purple-500/20 border border-purple-500/30 rounded text-purple-300">
+                                {categoryInfo.cost}
                             </span>
                             <span className="px-2 py-0.5 bg-white/5 border border-white/10 rounded text-slate-400">
                                 {typedRecord.platform || 'PC'}
                             </span>
-                            <span className="px-2 py-0.5 bg-white/5 border border-white/10 rounded text-slate-400 font-mono">
-                                {formatTime(typedRecord.time_ms)}
-                            </span>
                         </div>
-                        <h1 className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight leading-tight drop-shadow-sm">
-                            {typedRecord.title}
+                        <h1 className="text-4xl md:text-7xl font-black text-white mb-6 tracking-tighter leading-tight drop-shadow-sm font-mono">
+                            {formatTime(typedRecord.time_ms)}
                         </h1>
                         <div className="flex flex-wrap items-center gap-6 text-slate-400">
                             <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 border border-white/5">
