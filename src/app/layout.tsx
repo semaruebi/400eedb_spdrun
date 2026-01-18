@@ -8,8 +8,8 @@ const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' })
 const cinzel = Cinzel({ subsets: ['latin'], variable: '--font-cinzel' })
 
 export const metadata: Metadata = {
-  title: '幻想シアター TA記録帳',
-  description: '幻想シアターのタイムアタック記録・統計',
+  title: 'Genshin Impact : Elite Enemies RTA Leader Boards',
+  description: 'Genshin Impact Elite Enemies Time Attack Records & Statistics',
 }
 
 export default function RootLayout({

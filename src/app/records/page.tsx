@@ -117,9 +117,9 @@ export default async function RecordsPage({ searchParams }: Props) {
             <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
                 <div>
                     <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600 mb-2">
-                        バトルレコード
+                        Genshin Impact : Elite Enemies
                     </h1>
-                    <p className="text-slate-400">タイムアタック リーダーボード</p>
+                    <p className="text-slate-400">RTA Leader Boards</p>
                 </div>
 
                 <Link

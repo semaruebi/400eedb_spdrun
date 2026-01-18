@@ -1,4 +1,4 @@
-# 原神 幻想シアター TA記録帳
+# Genshin Impact : Elite Enemies RTA Leader Boards
 
 このプロジェクトは、原神の「幻想シアター」におけるタイムアタック記録を収集・閲覧するためのWebアプリケーションです。
 
