@@ -263,6 +263,8 @@ export default function NewRecordPage() {
                         character_id: charIdMap.get(m.characterName!)!,
                         role: m.role,
                         constellation: m.constellation,
+                        weapon_name: m.weaponName,
+                        refinement: m.refinement,
                         slot_order: idx,
                     }));
 

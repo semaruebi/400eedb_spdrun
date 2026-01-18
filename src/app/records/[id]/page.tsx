@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import type { RecordWithDetails } from '@/types'
 import { CHARACTER_MAP, ROLE_MAP } from '@/data/localization'
 import IconMap from '@/data/character_data.json'
+import WeaponMap from '@/data/weapon_full_data.json'
 import { ArrowLeft, Clock, Calendar, User, Gamepad2, Share2 } from 'lucide-react'
 
 const ELEMENT_COLORS: Record<string, { bg: string, border: string, accent: string }> = {
@@ -65,23 +66,29 @@ export default async function RecordDetailPage({ params }: Props) {
                 </Link>
 
                 <div className="flex flex-col md:flex-row gap-8 items-start md:items-end justify-between">
-                    <div>
-                        <div className="flex items-center gap-3 text-purple-400 font-bold tracking-widest text-sm mb-2 uppercase">
-                            <span className="px-2 py-0.5 bg-purple-500/10 border border-purple-500/20 rounded">{typedRecord.category_slug || 'Unknown Category'}</span>
-                            <span className="text-slate-500">•</span>
-                            <span>{typedRecord.platform || 'PC'}</span>
+                    <div className="flex-1">
+                        <div className="flex flex-wrap items-center gap-3 text-purple-400 font-bold tracking-widest text-xs mb-4 uppercase">
+                            <span className="px-2 py-0.5 bg-purple-500/20 border border-purple-500/30 rounded text-purple-300">
+                                {typedRecord.category_slug || 'Unknown Category'}
+                            </span>
+                            <span className="px-2 py-0.5 bg-white/5 border border-white/10 rounded text-slate-400">
+                                {typedRecord.platform || 'PC'}
+                            </span>
+                            <span className="px-2 py-0.5 bg-white/5 border border-white/10 rounded text-slate-400 font-mono">
+                                {formatTime(typedRecord.time_ms)}
+                            </span>
                         </div>
-                        <h1 className="text-5xl md:text-7xl font-cinzel font-bold text-white mb-4 tracking-tight drop-shadow-[0_0_15px_rgba(168,85,247,0.5)]">
-                            {formatTime(typedRecord.time_ms) || typedRecord.title}
+                        <h1 className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight leading-tight drop-shadow-sm">
+                            {typedRecord.title}
                         </h1>
-                        <div className="flex items-center gap-6 text-slate-400">
-                            <div className="flex items-center gap-2">
-                                <User className="w-4 h-4" />
+                        <div className="flex flex-wrap items-center gap-6 text-slate-400">
+                            <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 border border-white/5">
+                                <User className="w-4 h-4 text-purple-400" />
                                 <span className="text-white font-bold">{typedRecord.runner_name || 'Anonymous'}</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <Calendar className="w-4 h-4" />
-                                <span>{new Date(typedRecord.created_at).toLocaleDateString()}</span>
+                                <span>{new Date(typedRecord.created_at).toLocaleDateString()} に記録</span>
                             </div>
                         </div>
                     </div>
@@ -140,6 +147,8 @@ export default async function RecordDetailPage({ params }: Props) {
                             {characters.map((rc) => {
                                 const iconName = (IconMap as any)[rc.character?.name || ''] || '';
                                 const iconUrl = iconName ? `https://enka.network/ui/${iconName}.png` : null;
+                                const weaponData = (WeaponMap as any)[rc.weapon_name || ''] || null;
+                                const weaponIconUrl = weaponData ? `https://enka.network/ui/${weaponData.icon}.png` : null;
                                 const splashName = iconName.replace('UI_AvatarIcon_Side_', 'UI_Gacha_AvatarImg_');
                                 const splashUrl = iconName ? `https://enka.network/ui/${splashName}.png` : null;
                                 const element = rc.character?.element || 'None';
@@ -158,30 +167,57 @@ export default async function RecordDetailPage({ params }: Props) {
                                             </div>
                                         )}
 
-                                        <div className={`
-                                            relative z-10 w-14 h-14 rounded-full border-2 overflow-hidden bg-black/40 shadow-lg
-                                            ${rc.character?.element === 'Pyro' ? 'border-red-500' :
-                                                rc.character?.element === 'Hydro' ? 'border-blue-500' :
-                                                    rc.character?.element === 'Cryo' ? 'border-cyan-500' :
-                                                        rc.character?.element === 'Electro' ? 'border-purple-500' :
-                                                            rc.character?.element === 'Anemo' ? 'border-emerald-500' :
-                                                                rc.character?.element === 'Geo' ? 'border-yellow-500' :
-                                                                    rc.character?.element === 'Dendro' ? 'border-green-500' : 'border-slate-600'}
-                                         `}>
-                                            {iconUrl ? (
-                                                <img src={iconUrl} alt={rc.character?.name} className="w-full h-full object-cover scale-125 -translate-y-2" />
-                                            ) : (
-                                                <div className="w-full h-full flex items-center justify-center text-xs">{rc.character?.name[0]}</div>
+                                        <div className="relative w-14 h-14 shrink-0">
+                                            <div className={`
+                                                relative z-10 w-full h-full rounded-full border-2 overflow-hidden bg-black/40 shadow-lg
+                                                ${rc.character?.element === 'Pyro' ? 'border-red-500' :
+                                                    rc.character?.element === 'Hydro' ? 'border-blue-500' :
+                                                        rc.character?.element === 'Cryo' ? 'border-cyan-500' :
+                                                            rc.character?.element === 'Electro' ? 'border-purple-500' :
+                                                                rc.character?.element === 'Anemo' ? 'border-emerald-500' :
+                                                                    rc.character?.element === 'Geo' ? 'border-yellow-500' :
+                                                                        rc.character?.element === 'Dendro' ? 'border-green-500' : 'border-slate-600'}
+                                             `}>
+                                                {iconUrl ? (
+                                                    <img src={iconUrl} alt={rc.character?.name} className="w-full h-full object-cover scale-125 -translate-y-2" />
+                                                ) : (
+                                                    <div className="w-full h-full flex items-center justify-center text-xs">{rc.character?.name[0]}</div>
+                                                )}
+                                            </div>
+
+                                            {/* Weapon Icon Overlay */}
+                                            {(weaponIconUrl || rc.weapon_name) && (
+                                                <div className="absolute -bottom-1 -right-1 z-30 w-9 h-9 rounded-full bg-slate-900 border border-white/40 overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.5)] group-hover:scale-110 transition-transform flex items-center justify-center">
+                                                    {weaponIconUrl ? (
+                                                        <>
+                                                            <img src={weaponIconUrl} alt={rc.weapon_name} className="w-full h-full object-contain p-1" />
+                                                            <div className="absolute inset-x-0 bottom-0.5 flex items-center justify-center pointer-events-none">
+                                                                <span className="text-[10px] font-bold text-amber-400 drop-shadow-[0_2px_2px_rgba(0,0,0,1)] leading-none">
+                                                                    R{rc.refinement || 1}
+                                                                </span>
+                                                            </div>
+                                                        </>
+                                                    ) : (
+                                                        <span className="text-[10px] text-white font-bold bg-purple-600 w-full h-full flex items-center justify-center">
+                                                            W
+                                                        </span>
+                                                    )}
+                                                </div>
                                             )}
                                         </div>
 
-                                        <div className="flex-1 relative z-10">
-                                            <div className="font-bold text-white group-hover:text-purple-300 transition-colors">
+                                        <div className="flex-1 relative z-10 min-w-0">
+                                            <div className="font-bold text-white group-hover:text-purple-300 transition-colors truncate text-lg">
                                                 {CHARACTER_MAP[rc.character?.name || ''] || rc.character?.name}
                                             </div>
-                                            <div className="flex items-center gap-2 text-xs text-slate-400 mt-1">
-                                                <span className="bg-black/30 px-1.5 py-0.5 rounded">{rc.constellation || 0}凸</span>
-                                                <span>{rc.role || 'Member'}</span>
+                                            {(weaponData || rc.weapon_name) && (
+                                                <div className="text-[11px] text-slate-400 font-medium truncate mb-1">
+                                                    {weaponData?.nameJp || rc.weapon_name}
+                                                </div>
+                                            )}
+                                            <div className="flex items-center gap-2 text-xs text-slate-400 whitespace-nowrap">
+                                                <span className="bg-black/40 px-1.5 py-0.5 rounded text-white font-mono">{rc.constellation || 0}凸</span>
+                                                <span className="bg-white/5 px-2 py-0.5 rounded border border-white/5">{rc.role || 'Member'}</span>
                                             </div>
                                         </div>
                                     </div>

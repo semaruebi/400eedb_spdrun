@@ -31,7 +31,8 @@ export type RecordCharacter = {
     role?: string // 'Main DPS', 'Sub DPS', 'Support', 'Healer'
     constellation?: number
     artifact_set?: string
-    weapon?: string
+    weapon_name?: string
+    refinement?: number
     character?: Character
 }
 
