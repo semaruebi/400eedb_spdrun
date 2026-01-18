@@ -353,7 +353,7 @@ export function FilterPanel() {
                                                 <img
                                                     src={`https://enka.network/ui/${char.icon}.png`}
                                                     alt={char.enName}
-                                                    className="w-full h-full object-cover bg-slate-800"
+                                                    className="w-full h-full object-cover bg-slate-800 scale-125"
                                                     loading="lazy"
                                                 />
                                             </div>

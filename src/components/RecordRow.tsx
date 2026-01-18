@@ -54,7 +54,7 @@ export function RecordRow({ record, rank }: Props) {
             </div>
 
             {/* Party Members (All 4) */}
-            <div className="flex -space-x-2 justify-center">
+            <div className="flex gap-2 justify-center">
                 {partyNames.slice(0, 4).map((name, idx) => {
                     const iconUrl = getCharIcon(name);
                     const isMainAttacker = mainAttackerNames.includes(name);
@@ -69,7 +69,7 @@ export function RecordRow({ record, rank }: Props) {
                             title={charNameJp}
                         >
                             {iconUrl ? (
-                                <img src={iconUrl} alt={name || ''} className="w-full h-full object-cover scale-110" />
+                                <img src={iconUrl} alt={name || ''} className="w-full h-full object-cover scale-125" />
                             ) : (
                                 <span className="flex items-center justify-center h-full text-white text-xs">
                                     {name?.charAt(0) || '?'}
