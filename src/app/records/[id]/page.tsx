@@ -6,6 +6,16 @@ import { CHARACTER_MAP, ROLE_MAP } from '@/data/localization'
 import IconMap from '@/data/character_data.json'
 import { ArrowLeft, Clock, Calendar, User, Gamepad2, Share2 } from 'lucide-react'
 
+const ELEMENT_COLORS: Record<string, { bg: string, border: string, accent: string }> = {
+    Pyro: { bg: 'bg-red-500/10', border: 'border-red-500/20', accent: 'group-hover:border-red-500/50' },
+    Hydro: { bg: 'bg-blue-500/10', border: 'border-blue-500/20', accent: 'group-hover:border-blue-500/50' },
+    Anemo: { bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', accent: 'group-hover:border-emerald-500/50' },
+    Electro: { bg: 'bg-purple-500/10', border: 'border-purple-500/20', accent: 'group-hover:border-purple-500/50' },
+    Dendro: { bg: 'bg-green-500/10', border: 'border-green-500/20', accent: 'group-hover:border-green-500/50' },
+    Cryo: { bg: 'bg-cyan-500/10', border: 'border-cyan-500/20', accent: 'group-hover:border-cyan-500/50' },
+    Geo: { bg: 'bg-amber-500/10', border: 'border-amber-500/20', accent: 'group-hover:border-amber-500/50' },
+};
+
 type Props = {
     params: Promise<{ id: string }>
 }
@@ -132,16 +142,18 @@ export default async function RecordDetailPage({ params }: Props) {
                                 const iconUrl = iconName ? `https://enka.network/ui/${iconName}.png` : null;
                                 const splashName = iconName.replace('UI_AvatarIcon_Side_', 'UI_Gacha_AvatarImg_');
                                 const splashUrl = iconName ? `https://enka.network/ui/${splashName}.png` : null;
+                                const element = rc.character?.element || 'None';
+                                const colors = ELEMENT_COLORS[element] || { bg: 'bg-white/5', border: 'border-white/5', accent: 'hover:border-purple-500/30' };
 
                                 return (
-                                    <div key={rc.character_id} className="group relative flex items-center gap-4 p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 hover:border-purple-500/30 transition-all overflow-hidden">
+                                    <div key={rc.character_id} className={`group relative flex items-center gap-4 p-3 rounded-xl ${colors.bg} border ${colors.border} ${colors.accent} transition-all overflow-hidden`}>
                                         {/* Splash Art Background */}
                                         {splashUrl && (
-                                            <div className="absolute inset-0 pointer-events-none opacity-[0.5] transition-opacity duration-300">
+                                            <div className="absolute inset-0 pointer-events-none opacity-[0.3] transition-opacity duration-300">
                                                 <img
                                                     src={splashUrl}
                                                     alt=""
-                                                    className="absolute -right-18 top-0 h-32 w-auto object-cover object-top scale-[1.5]"
+                                                    className="absolute -right-20 top-0 h-32 w-auto object-cover object-top scale-[1.5]"
                                                 />
                                             </div>
                                         )}
