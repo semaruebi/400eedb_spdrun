@@ -1,0 +1,765 @@
+{
+  "Kamisato Ayaka": {
+    "icon": "UI_AvatarIcon_Side_Ayaka",
+    "weaponType": "Sword",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Jean": {
+    "icon": "UI_AvatarIcon_Side_Qin",
+    "weaponType": "Sword",
+    "element": "Wind",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Traveler": {
+    "icon": "UI_AvatarIcon_Side_PlayerBoy",
+    "weaponType": "Sword",
+    "element": "Wind",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Lisa": {
+    "icon": "UI_AvatarIcon_Side_Lisa",
+    "weaponType": "Catalyst",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Barbara": {
+    "icon": "UI_AvatarIcon_Side_Barbara",
+    "weaponType": "Catalyst",
+    "element": "Water",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Kaeya": {
+    "icon": "UI_AvatarIcon_Side_Kaeya",
+    "weaponType": "Sword",
+    "element": "Ice",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Diluc": {
+    "icon": "UI_AvatarIcon_Side_Diluc",
+    "weaponType": "Claymore",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Razor": {
+    "icon": "UI_AvatarIcon_Side_Razor",
+    "weaponType": "Claymore",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Amber": {
+    "icon": "UI_AvatarIcon_Side_Ambor",
+    "weaponType": "Bow",
+    "element": "Fire",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Venti": {
+    "icon": "UI_AvatarIcon_Side_Venti",
+    "weaponType": "Bow",
+    "element": "Wind",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Xiangling": {
+    "icon": "UI_AvatarIcon_Side_Xiangling",
+    "weaponType": "Polearm",
+    "element": "Fire",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Beidou": {
+    "icon": "UI_AvatarIcon_Side_Beidou",
+    "weaponType": "Claymore",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Xingqiu": {
+    "icon": "UI_AvatarIcon_Side_Xingqiu",
+    "weaponType": "Sword",
+    "element": "Water",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Xiao": {
+    "icon": "UI_AvatarIcon_Side_Xiao",
+    "weaponType": "Polearm",
+    "element": "Wind",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Ningguang": {
+    "icon": "UI_AvatarIcon_Side_Ningguang",
+    "weaponType": "Catalyst",
+    "element": "Rock",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Klee": {
+    "icon": "UI_AvatarIcon_Side_Klee",
+    "weaponType": "Catalyst",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Zhongli": {
+    "icon": "UI_AvatarIcon_Side_Zhongli",
+    "weaponType": "Polearm",
+    "element": "Rock",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Fischl": {
+    "icon": "UI_AvatarIcon_Side_Fischl",
+    "weaponType": "Bow",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Bennett": {
+    "icon": "UI_AvatarIcon_Side_Bennett",
+    "weaponType": "Sword",
+    "element": "Fire",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Tartaglia": {
+    "icon": "UI_AvatarIcon_Side_Tartaglia",
+    "weaponType": "Bow",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Noelle": {
+    "icon": "UI_AvatarIcon_Side_Noel",
+    "weaponType": "Claymore",
+    "element": "Rock",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Qiqi": {
+    "icon": "UI_AvatarIcon_Side_Qiqi",
+    "weaponType": "Sword",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Chongyun": {
+    "icon": "UI_AvatarIcon_Side_Chongyun",
+    "weaponType": "Claymore",
+    "element": "Ice",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Ganyu": {
+    "icon": "UI_AvatarIcon_Side_Ganyu",
+    "weaponType": "Bow",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Albedo": {
+    "icon": "UI_AvatarIcon_Side_Albedo",
+    "weaponType": "Sword",
+    "element": "Rock",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Diona": {
+    "icon": "UI_AvatarIcon_Side_Diona",
+    "weaponType": "Bow",
+    "element": "Ice",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Mona": {
+    "icon": "UI_AvatarIcon_Side_Mona",
+    "weaponType": "Catalyst",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Keqing": {
+    "icon": "UI_AvatarIcon_Side_Keqing",
+    "weaponType": "Sword",
+    "element": "Electric",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Sucrose": {
+    "icon": "UI_AvatarIcon_Side_Sucrose",
+    "weaponType": "Catalyst",
+    "element": "Wind",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Xinyan": {
+    "icon": "UI_AvatarIcon_Side_Xinyan",
+    "weaponType": "Claymore",
+    "element": "Fire",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Rosaria": {
+    "icon": "UI_AvatarIcon_Side_Rosaria",
+    "weaponType": "Polearm",
+    "element": "Ice",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Hu Tao": {
+    "icon": "UI_AvatarIcon_Side_Hutao",
+    "weaponType": "Polearm",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Kaedehara Kazuha": {
+    "icon": "UI_AvatarIcon_Side_Kazuha",
+    "weaponType": "Sword",
+    "element": "Wind",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Yanfei": {
+    "icon": "UI_AvatarIcon_Side_Feiyan",
+    "weaponType": "Catalyst",
+    "element": "Fire",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Yoimiya": {
+    "icon": "UI_AvatarIcon_Side_Yoimiya",
+    "weaponType": "Bow",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Thoma": {
+    "icon": "UI_AvatarIcon_Side_Tohma",
+    "weaponType": "Polearm",
+    "element": "Fire",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Eula": {
+    "icon": "UI_AvatarIcon_Side_Eula",
+    "weaponType": "Claymore",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Raiden Shogun": {
+    "icon": "UI_AvatarIcon_Side_Shougun",
+    "weaponType": "Polearm",
+    "element": "Electric",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Sayu": {
+    "icon": "UI_AvatarIcon_Side_Sayu",
+    "weaponType": "Claymore",
+    "element": "Wind",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Sangonomiya Kokomi": {
+    "icon": "UI_AvatarIcon_Side_Kokomi",
+    "weaponType": "Catalyst",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Gorou": {
+    "icon": "UI_AvatarIcon_Side_Gorou",
+    "weaponType": "Bow",
+    "element": "Rock",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Kujou Sara": {
+    "icon": "UI_AvatarIcon_Side_Sara",
+    "weaponType": "Bow",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Arataki Itto": {
+    "icon": "UI_AvatarIcon_Side_Itto",
+    "weaponType": "Claymore",
+    "element": "Rock",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Yae Miko": {
+    "icon": "UI_AvatarIcon_Side_Yae",
+    "weaponType": "Catalyst",
+    "element": "Electric",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Shikanoin Heizou": {
+    "icon": "UI_AvatarIcon_Side_Heizo",
+    "weaponType": "Catalyst",
+    "element": "Wind",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Yelan": {
+    "icon": "UI_AvatarIcon_Side_Yelan",
+    "weaponType": "Bow",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Kirara": {
+    "icon": "UI_AvatarIcon_Side_Momoka",
+    "weaponType": "Sword",
+    "element": "Grass",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Aloy": {
+    "icon": "UI_AvatarIcon_Side_Aloy",
+    "weaponType": "Bow",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Shenhe": {
+    "icon": "UI_AvatarIcon_Side_Shenhe",
+    "weaponType": "Polearm",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Yun Jin": {
+    "icon": "UI_AvatarIcon_Side_Yunjin",
+    "weaponType": "Polearm",
+    "element": "Rock",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Kuki Shinobu": {
+    "icon": "UI_AvatarIcon_Side_Shinobu",
+    "weaponType": "Sword",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Kamisato Ayato": {
+    "icon": "UI_AvatarIcon_Side_Ayato",
+    "weaponType": "Sword",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Collei": {
+    "icon": "UI_AvatarIcon_Side_Collei",
+    "weaponType": "Bow",
+    "element": "Grass",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Dori": {
+    "icon": "UI_AvatarIcon_Side_Dori",
+    "weaponType": "Claymore",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Tighnari": {
+    "icon": "UI_AvatarIcon_Side_Tighnari",
+    "weaponType": "Bow",
+    "element": "Grass",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Nilou": {
+    "icon": "UI_AvatarIcon_Side_Nilou",
+    "weaponType": "Sword",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Cyno": {
+    "icon": "UI_AvatarIcon_Side_Cyno",
+    "weaponType": "Polearm",
+    "element": "Electric",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Candace": {
+    "icon": "UI_AvatarIcon_Side_Candace",
+    "weaponType": "Polearm",
+    "element": "Water",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Nahida": {
+    "icon": "UI_AvatarIcon_Side_Nahida",
+    "weaponType": "Catalyst",
+    "element": "Grass",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Layla": {
+    "icon": "UI_AvatarIcon_Side_Layla",
+    "weaponType": "Sword",
+    "element": "Ice",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Wanderer": {
+    "icon": "UI_AvatarIcon_Side_Wanderer",
+    "weaponType": "Catalyst",
+    "element": "Wind",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Faruzan": {
+    "icon": "UI_AvatarIcon_Side_Faruzan",
+    "weaponType": "Bow",
+    "element": "Wind",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Yaoyao": {
+    "icon": "UI_AvatarIcon_Side_Yaoyao",
+    "weaponType": "Polearm",
+    "element": "Grass",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Alhaitham": {
+    "icon": "UI_AvatarIcon_Side_Alhatham",
+    "weaponType": "Sword",
+    "element": "Grass",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Dehya": {
+    "icon": "UI_AvatarIcon_Side_Dehya",
+    "weaponType": "Claymore",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Mika": {
+    "icon": "UI_AvatarIcon_Side_Mika",
+    "weaponType": "Polearm",
+    "element": "Ice",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Kaveh": {
+    "icon": "UI_AvatarIcon_Side_Kaveh",
+    "weaponType": "Claymore",
+    "element": "Grass",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Baizhu": {
+    "icon": "UI_AvatarIcon_Side_Baizhuer",
+    "weaponType": "Catalyst",
+    "element": "Grass",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Lynette": {
+    "icon": "UI_AvatarIcon_Side_Linette",
+    "weaponType": "Sword",
+    "element": "Wind",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Lyney": {
+    "icon": "UI_AvatarIcon_Side_Liney",
+    "weaponType": "Bow",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Freminet": {
+    "icon": "UI_AvatarIcon_Side_Freminet",
+    "weaponType": "Claymore",
+    "element": "Ice",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Wriothesley": {
+    "icon": "UI_AvatarIcon_Side_Wriothesley",
+    "weaponType": "Catalyst",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Neuvillette": {
+    "icon": "UI_AvatarIcon_Side_Neuvillette",
+    "weaponType": "Catalyst",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Charlotte": {
+    "icon": "UI_AvatarIcon_Side_Charlotte",
+    "weaponType": "Catalyst",
+    "element": "Ice",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Furina": {
+    "icon": "UI_AvatarIcon_Side_Furina",
+    "weaponType": "Sword",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Chevreuse": {
+    "icon": "UI_AvatarIcon_Side_Chevreuse",
+    "weaponType": "Polearm",
+    "element": "Fire",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Navia": {
+    "icon": "UI_AvatarIcon_Side_Navia",
+    "weaponType": "Claymore",
+    "element": "Rock",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Gaming": {
+    "icon": "UI_AvatarIcon_Side_Gaming",
+    "weaponType": "Claymore",
+    "element": "Fire",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Xianyun": {
+    "icon": "UI_AvatarIcon_Side_Liuyun",
+    "weaponType": "Catalyst",
+    "element": "Wind",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Chiori": {
+    "icon": "UI_AvatarIcon_Side_Chiori",
+    "weaponType": "Sword",
+    "element": "Rock",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Sigewinne": {
+    "icon": "UI_AvatarIcon_Side_Sigewinne",
+    "weaponType": "Bow",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Arlecchino": {
+    "icon": "UI_AvatarIcon_Side_Arlecchino",
+    "weaponType": "Polearm",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Sethos": {
+    "icon": "UI_AvatarIcon_Side_Sethos",
+    "weaponType": "Bow",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Clorinde": {
+    "icon": "UI_AvatarIcon_Side_Clorinde",
+    "weaponType": "Sword",
+    "element": "Electric",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Emilie": {
+    "icon": "UI_AvatarIcon_Side_Emilie",
+    "weaponType": "Polearm",
+    "element": "Grass",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Kachina": {
+    "icon": "UI_AvatarIcon_Side_Kachina",
+    "weaponType": "Polearm",
+    "element": "Rock",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Kinich": {
+    "icon": "UI_AvatarIcon_Side_Kinich",
+    "weaponType": "Claymore",
+    "element": "Grass",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Mualani": {
+    "icon": "UI_AvatarIcon_Side_Mualani",
+    "weaponType": "Catalyst",
+    "element": "Water",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Xilonen": {
+    "icon": "UI_AvatarIcon_Side_Xilonen",
+    "weaponType": "Sword",
+    "element": "Rock",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Chasca": {
+    "icon": "UI_AvatarIcon_Side_Chasca",
+    "weaponType": "Bow",
+    "element": "Wind",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Ororon": {
+    "icon": "UI_AvatarIcon_Side_Olorun",
+    "weaponType": "Bow",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Mavuika": {
+    "icon": "UI_AvatarIcon_Side_Mavuika",
+    "weaponType": "Claymore",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Citlali": {
+    "icon": "UI_AvatarIcon_Side_Citlali",
+    "weaponType": "Catalyst",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Lan Yan": {
+    "icon": "UI_AvatarIcon_Side_Lanyan",
+    "weaponType": "Catalyst",
+    "element": "Wind",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Yumemizuki Mizuki": {
+    "icon": "UI_AvatarIcon_Side_Mizuki",
+    "weaponType": "Catalyst",
+    "element": "Wind",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Iansan": {
+    "icon": "UI_AvatarIcon_Side_Iansan",
+    "weaponType": "Polearm",
+    "element": "Electric",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Varesa": {
+    "icon": "UI_AvatarIcon_Side_Varesa",
+    "weaponType": "Catalyst",
+    "element": "Electric",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Escoffier": {
+    "icon": "UI_AvatarIcon_Side_Escoffier",
+    "weaponType": "Polearm",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Ifa": {
+    "icon": "UI_AvatarIcon_Side_Ifa",
+    "weaponType": "Catalyst",
+    "element": "Wind",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Skirk": {
+    "icon": "UI_AvatarIcon_Side_SkirkNew",
+    "weaponType": "Sword",
+    "element": "Ice",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Dahlia": {
+    "icon": "UI_AvatarIcon_Side_Dahlia",
+    "weaponType": "Sword",
+    "element": "Water",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Ineffa": {
+    "icon": "UI_AvatarIcon_Side_Ineffa",
+    "weaponType": "Polearm",
+    "element": "Electric",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Lauma": {
+    "icon": "UI_AvatarIcon_Side_Lauma",
+    "weaponType": "Catalyst",
+    "element": "Grass",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Flins": {
+    "icon": "UI_AvatarIcon_Side_Flins",
+    "weaponType": "Polearm",
+    "element": "Electric",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Aino": {
+    "icon": "UI_AvatarIcon_Side_Aino",
+    "weaponType": "Claymore",
+    "element": "Water",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Nefer": {
+    "icon": "UI_AvatarIcon_Side_Nefer",
+    "weaponType": "Catalyst",
+    "element": "Grass",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Durin": {
+    "icon": "UI_AvatarIcon_Side_Durin",
+    "weaponType": "Sword",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Jahoda": {
+    "icon": "UI_AvatarIcon_Side_Jahoda",
+    "weaponType": "Bow",
+    "element": "Wind",
+    "rarity": 4,
+    "isStandard": false
+  },
+  "Columbina": {
+    "icon": "UI_AvatarIcon_Side_Columbina",
+    "weaponType": "Catalyst",
+    "element": "Fire",
+    "rarity": 5,
+    "isStandard": false
+  }
+}

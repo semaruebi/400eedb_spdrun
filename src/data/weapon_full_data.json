@@ -1,0 +1,1300 @@
+{
+  "Favonius Sword": {
+    "icon": "UI_EquipIcon_Sword_Zephyrus",
+    "nameJp": "西風剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "The Flute": {
+    "icon": "UI_EquipIcon_Sword_Troupe",
+    "nameJp": "笛の剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Sacrificial Sword": {
+    "icon": "UI_EquipIcon_Sword_Fossil",
+    "nameJp": "祭礼の剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Royal Longsword": {
+    "icon": "UI_EquipIcon_Sword_Theocrat",
+    "nameJp": "旧貴族長剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Lion's Roar": {
+    "icon": "UI_EquipIcon_Sword_Rockkiller",
+    "nameJp": "匣中龍吟",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Prototype Rancour": {
+    "icon": "UI_EquipIcon_Sword_Proto",
+    "nameJp": "斬岩·試作",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Iron Sting": {
+    "icon": "UI_EquipIcon_Sword_Exotic",
+    "nameJp": "鉄蜂の刺し",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Blackcliff Longsword": {
+    "icon": "UI_EquipIcon_Sword_Blackrock",
+    "nameJp": "黒岩の長剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "The Black Sword": {
+    "icon": "UI_EquipIcon_Sword_Bloodstained",
+    "nameJp": "黒剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "The Alley Flash": {
+    "icon": "UI_EquipIcon_Sword_Outlaw",
+    "nameJp": "ダークアレイの閃光",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Sword of Descension": {
+    "icon": "UI_EquipIcon_Sword_Psalmus",
+    "nameJp": "降臨の剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Festering Desire": {
+    "icon": "UI_EquipIcon_Sword_Magnum",
+    "nameJp": "腐植の剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Amenoma Kageuchi": {
+    "icon": "UI_EquipIcon_Sword_Bakufu",
+    "nameJp": "天目影打",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Cinnabar Spindle": {
+    "icon": "UI_EquipIcon_Sword_Opus",
+    "nameJp": "シナバースピンドル",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Kagotsurube Isshin": {
+    "icon": "UI_EquipIcon_Sword_Youtou",
+    "nameJp": "籠釣瓶一心",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Sapwood Blade": {
+    "icon": "UI_EquipIcon_Sword_Arakalari",
+    "nameJp": "原木刀",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Xiphos' Moonlight": {
+    "icon": "UI_EquipIcon_Sword_Pleroma",
+    "nameJp": "サイフォスの月明かり",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Prized Isshin Blade": {
+    "icon": "UI_EquipIcon_Sword_YoutouEnchanted",
+    "nameJp": "「一心伝」名刀",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Toukabou Shigure": {
+    "icon": "UI_EquipIcon_Sword_Kasabouzu",
+    "nameJp": "東花坊時雨",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Wolf-Fang": {
+    "icon": "UI_EquipIcon_Sword_Boreas",
+    "nameJp": "狼牙",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Finale of the Deep": {
+    "icon": "UI_EquipIcon_Sword_Vorpal",
+    "nameJp": "海淵のフィナーレ",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Fleuve Cendre Ferryman": {
+    "icon": "UI_EquipIcon_Sword_Machination",
+    "nameJp": "サーンドルの渡し守",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "The Dockhand's Assistant": {
+    "icon": "UI_EquipIcon_Sword_Mechanic",
+    "nameJp": "船渠剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Sword of Narzissenkreuz": {
+    "icon": "UI_EquipIcon_Sword_Purewill",
+    "nameJp": "水仙十字の剣",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Sturdy Bone": {
+    "icon": "UI_EquipIcon_Sword_Umpakati",
+    "nameJp": "ストロング・ボーン",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Flute of Ezpitzal": {
+    "icon": "UI_EquipIcon_Sword_Isikhulu",
+    "nameJp": "エズピツァルの笛",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Calamity of Eshu": {
+    "icon": "UI_EquipIcon_Sword_SacrificialNgombe",
+    "nameJp": "厄水の災い",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Serenity's Call": {
+    "icon": "UI_EquipIcon_Sword_Ilmarinen",
+    "nameJp": "静謐の笛",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Moonweaver's Dawn": {
+    "icon": "UI_EquipIcon_Sword_Miekka",
+    "nameJp": "月紡ぎの曙光",
+    "type": "Sword",
+    "rarity": 4
+  },
+  "Aquila Favonia": {
+    "icon": "UI_EquipIcon_Sword_Falcon",
+    "nameJp": "風鷹剣",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Skyward Blade": {
+    "icon": "UI_EquipIcon_Sword_Dvalin",
+    "nameJp": "天空の刃",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Freedom-Sworn": {
+    "icon": "UI_EquipIcon_Sword_Widsith",
+    "nameJp": "蒼古なる自由への誓い",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Summit Shaper": {
+    "icon": "UI_EquipIcon_Sword_Kunwu",
+    "nameJp": "斬山の刃",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Primordial Jade Cutter": {
+    "icon": "UI_EquipIcon_Sword_Blunt",
+    "nameJp": "磐岩の緑",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "One Side": {
+    "icon": "UI_EquipIcon_Sword_Blunt",
+    "nameJp": "虚構",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Mistsplitter Reforged": {
+    "icon": "UI_EquipIcon_Sword_Narukami",
+    "nameJp": "霧切の廻光",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Haran Geppaku Futsu": {
+    "icon": "UI_EquipIcon_Sword_Amenoma",
+    "nameJp": "波乱月白経津",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Key of Khaj-Nisut": {
+    "icon": "UI_EquipIcon_Sword_Deshret",
+    "nameJp": "聖顕の鍵",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Light of Foliar Incision": {
+    "icon": "UI_EquipIcon_Sword_Ayus",
+    "nameJp": "萃光の裁葉",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Splendor of Tranquil Waters": {
+    "icon": "UI_EquipIcon_Sword_Regalis",
+    "nameJp": "静水流転の輝き",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Uraku Misugiri": {
+    "icon": "UI_EquipIcon_Sword_Needle",
+    "nameJp": "有楽御簾切",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Absolution": {
+    "icon": "UI_EquipIcon_Sword_Estoc",
+    "nameJp": "赦罪",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Peak Patrol Song": {
+    "icon": "UI_EquipIcon_Sword_XochitlsTube",
+    "nameJp": "岩峰を巡る歌",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Azurelight": {
+    "icon": "UI_EquipIcon_Sword_OuterSword",
+    "nameJp": "蒼耀",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Athame Artis": {
+    "icon": "UI_EquipIcon_Sword_Motsognir",
+    "nameJp": "黒蝕",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Lightbearing Moonshard": {
+    "icon": "UI_EquipIcon_Sword_SilverwareSaw",
+    "nameJp": "三日月の含光",
+    "type": "Sword",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Favonius Greatsword": {
+    "icon": "UI_EquipIcon_Claymore_Zephyrus",
+    "nameJp": "西風大剣",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "The Bell": {
+    "icon": "UI_EquipIcon_Claymore_Troupe",
+    "nameJp": "鐘の剣",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Sacrificial Greatsword": {
+    "icon": "UI_EquipIcon_Claymore_Fossil",
+    "nameJp": "祭礼の大剣",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Royal Greatsword": {
+    "icon": "UI_EquipIcon_Claymore_Theocrat",
+    "nameJp": "旧貴族大剣",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Rainslasher": {
+    "icon": "UI_EquipIcon_Claymore_Perdue",
+    "nameJp": "雨裁",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Prototype Archaic": {
+    "icon": "UI_EquipIcon_Claymore_Proto",
+    "nameJp": "古華·試作",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Whiteblind": {
+    "icon": "UI_EquipIcon_Claymore_Exotic",
+    "nameJp": "白影の剣",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Blackcliff Slasher": {
+    "icon": "UI_EquipIcon_Claymore_Blackrock",
+    "nameJp": "黒岩の斬刀",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Serpent Spine": {
+    "icon": "UI_EquipIcon_Claymore_Kione",
+    "nameJp": "螭龍の剣",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Lithic Blade": {
+    "icon": "UI_EquipIcon_Claymore_Lapis",
+    "nameJp": "千岩古剣",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Snow-Tombed Starsilver": {
+    "icon": "UI_EquipIcon_Claymore_Dragonfell",
+    "nameJp": "雪葬の星銀",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Luxurious Sea-Lord": {
+    "icon": "UI_EquipIcon_Claymore_MillenniaTuna",
+    "nameJp": "銜玉の海皇",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Katsuragikiri Nagamasa": {
+    "icon": "UI_EquipIcon_Claymore_Bakufu",
+    "nameJp": "桂木斬長正",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Makhaira Aquamarine": {
+    "icon": "UI_EquipIcon_Claymore_Pleroma",
+    "nameJp": "マカイラの水色",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Akuoumaru": {
+    "icon": "UI_EquipIcon_Claymore_Maria",
+    "nameJp": "惡王丸",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Forest Regalia": {
+    "icon": "UI_EquipIcon_Claymore_Arakalari",
+    "nameJp": "森林のレガリア",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Mailed Flower": {
+    "icon": "UI_EquipIcon_Claymore_Fleurfair",
+    "nameJp": "鉄彩の花",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Talking Stick": {
+    "icon": "UI_EquipIcon_Claymore_BeastTamer",
+    "nameJp": "話死合い棒",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Tidal Shadow": {
+    "icon": "UI_EquipIcon_Claymore_Vorpal",
+    "nameJp": "タイダル·シャドー",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "\"Ultimate Overlord's Mega Magic Sword\"": {
+    "icon": "UI_EquipIcon_Claymore_Champion",
+    "nameJp": "「スーパーアルティメット覇王魔剣」",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Portable Power Saw": {
+    "icon": "UI_EquipIcon_Claymore_Mechanic",
+    "nameJp": "携帯型チェーンソー",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Fruitful Hook": {
+    "icon": "UI_EquipIcon_Claymore_Umpakati",
+    "nameJp": "実りの鉤鉈",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Earth Shaker": {
+    "icon": "UI_EquipIcon_Claymore_Isikhulu",
+    "nameJp": "アースシェイカー",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Flame-Forged Insight": {
+    "icon": "UI_EquipIcon_Claymore_Polilith",
+    "nameJp": "知恵の溶炎",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Master Key": {
+    "icon": "UI_EquipIcon_Claymore_Ilmarinen",
+    "nameJp": "万能の鍵",
+    "type": "Claymore",
+    "rarity": 4
+  },
+  "Skyward Pride": {
+    "icon": "UI_EquipIcon_Claymore_Dvalin",
+    "nameJp": "天空の傲",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Wolf's Gravestone": {
+    "icon": "UI_EquipIcon_Claymore_Wolfmound",
+    "nameJp": "狼の末路",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Song of Broken Pines": {
+    "icon": "UI_EquipIcon_Claymore_Widsith",
+    "nameJp": "松韻の響く頃",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "The Unforged": {
+    "icon": "UI_EquipIcon_Claymore_Kunwu",
+    "nameJp": "無工の剣",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Primordial Jade Greatsword": {
+    "icon": "UI_EquipIcon_Claymore_Aniki",
+    "nameJp": "美玉魚",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "The Other Side": {
+    "icon": "UI_EquipIcon_Claymore_Aniki",
+    "nameJp": "異史",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Redhorn Stonethresher": {
+    "icon": "UI_EquipIcon_Claymore_Itadorimaru",
+    "nameJp": "赤角石塵滅砕",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Beacon of the Reed Sea": {
+    "icon": "UI_EquipIcon_Claymore_Deshret",
+    "nameJp": "葦海の標",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Verdict": {
+    "icon": "UI_EquipIcon_Claymore_GoldenVerdict",
+    "nameJp": "裁断",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Fang of the Mountain King": {
+    "icon": "UI_EquipIcon_Claymore_EmeraldSword",
+    "nameJp": "山の王の長牙",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "A Thousand Blazing Suns": {
+    "icon": "UI_EquipIcon_Claymore_RadianceSword",
+    "nameJp": "千烈の日輪",
+    "type": "Claymore",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Dragon's Bane": {
+    "icon": "UI_EquipIcon_Pole_Stardust",
+    "nameJp": "匣中滅龍",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Prototype Starglitter": {
+    "icon": "UI_EquipIcon_Pole_Proto",
+    "nameJp": "星鎌·試作",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Crescent Pike": {
+    "icon": "UI_EquipIcon_Pole_Exotic",
+    "nameJp": "流月の針",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Blackcliff Pole": {
+    "icon": "UI_EquipIcon_Pole_Blackrock",
+    "nameJp": "黒岩の突槍",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Deathmatch": {
+    "icon": "UI_EquipIcon_Pole_Gladiator",
+    "nameJp": "死闘の槍",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Lithic Spear": {
+    "icon": "UI_EquipIcon_Pole_Lapis",
+    "nameJp": "千岩長槍",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Favonius Lance": {
+    "icon": "UI_EquipIcon_Pole_Zephyrus",
+    "nameJp": "西風長槍",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Royal Spear": {
+    "icon": "UI_EquipIcon_Pole_Theocrat",
+    "nameJp": "旧貴族猟槍",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Dragonspine Spear": {
+    "icon": "UI_EquipIcon_Pole_Everfrost",
+    "nameJp": "ドラゴンスピア",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Kitain Cross Spear": {
+    "icon": "UI_EquipIcon_Pole_Bakufu",
+    "nameJp": "喜多院十文字槍",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "\"The Catch\"": {
+    "icon": "UI_EquipIcon_Pole_Mori",
+    "nameJp": "「漁獲」",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Wavebreaker's Fin": {
+    "icon": "UI_EquipIcon_Pole_Maria",
+    "nameJp": "斬波のひれ長",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Moonpiercer": {
+    "icon": "UI_EquipIcon_Pole_Arakalari",
+    "nameJp": "ムーンピアサー",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Missive Windspear": {
+    "icon": "UI_EquipIcon_Pole_Windvane",
+    "nameJp": "風信の矛",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Ballad of the Fjords": {
+    "icon": "UI_EquipIcon_Pole_Shanty",
+    "nameJp": "フィヨルドの歌",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Rightful Reward": {
+    "icon": "UI_EquipIcon_Pole_Vorpal",
+    "nameJp": "正義の報酬",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Dialogues of the Desert Sages": {
+    "icon": "UI_EquipIcon_Pole_Caduceus",
+    "nameJp": "砂中の賢者達の問答",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Prospector's Drill": {
+    "icon": "UI_EquipIcon_Pole_Mechanic",
+    "nameJp": "プロスペクタードリル",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Mountain-Bracing Bolt": {
+    "icon": "UI_EquipIcon_Pole_Umpakati",
+    "nameJp": "鎮山の釘",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Footprint of the Rainbow": {
+    "icon": "UI_EquipIcon_Pole_Isikhulu",
+    "nameJp": "虹の行方",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Tamayuratei no Ohanashi": {
+    "icon": "UI_EquipIcon_Pole_Aoandon",
+    "nameJp": "玉響停の御噺",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Prospector's Shovel": {
+    "icon": "UI_EquipIcon_Pole_Ilmarinen",
+    "nameJp": "金掘りのシャベル",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Sacrificer's Staff": {
+    "icon": "UI_EquipIcon_Pole_Krivule",
+    "nameJp": "聖祭者の輝杖",
+    "type": "Polearm",
+    "rarity": 4
+  },
+  "Staff of Homa": {
+    "icon": "UI_EquipIcon_Pole_Homa",
+    "nameJp": "護摩の杖",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Skyward Spine": {
+    "icon": "UI_EquipIcon_Pole_Dvalin",
+    "nameJp": "天空の脊",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Vortex Vanquisher": {
+    "icon": "UI_EquipIcon_Pole_Kunwu",
+    "nameJp": "破天の槍",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Primordial Jade Winged-Spear": {
+    "icon": "UI_EquipIcon_Pole_Morax",
+    "nameJp": "和璞鳶",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Deicide": {
+    "icon": "UI_EquipIcon_Pole_Gewalt",
+    "nameJp": "レジサイド",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Calamity Queller": {
+    "icon": "UI_EquipIcon_Pole_Santika",
+    "nameJp": "息災",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Engulfing Lightning": {
+    "icon": "UI_EquipIcon_Pole_Narukami",
+    "nameJp": "草薙の稲光",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Staff of the Scarlet Sands": {
+    "icon": "UI_EquipIcon_Pole_Deshret",
+    "nameJp": "赤砂の杖",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Crimson Moon's Semblance": {
+    "icon": "UI_EquipIcon_Pole_BloodMoon",
+    "nameJp": "赤月のシルエット",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Lumidouce Elegy": {
+    "icon": "UI_EquipIcon_Pole_Muguet",
+    "nameJp": "ルミドゥースの挽歌",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Symphonist of Scents": {
+    "icon": "UI_EquipIcon_Pole_Trident",
+    "nameJp": "香りのシンフォニスト",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Fractured Halo": {
+    "icon": "UI_EquipIcon_Pole_Perdix",
+    "nameJp": "砕け散る光輪",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Bloodsoaked Ruins": {
+    "icon": "UI_EquipIcon_Pole_TummaLyhty",
+    "nameJp": "血染めの荒れ地",
+    "type": "Polearm",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Favonius Codex": {
+    "icon": "UI_EquipIcon_Catalyst_Zephyrus",
+    "nameJp": "西風秘典",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "The Widsith": {
+    "icon": "UI_EquipIcon_Catalyst_Troupe",
+    "nameJp": "流浪楽章",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Sacrificial Fragments": {
+    "icon": "UI_EquipIcon_Catalyst_Fossil",
+    "nameJp": "祭礼の断片",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Royal Grimoire": {
+    "icon": "UI_EquipIcon_Catalyst_Theocrat",
+    "nameJp": "旧貴族秘法録",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Solar Pearl": {
+    "icon": "UI_EquipIcon_Catalyst_Resurrection",
+    "nameJp": "匣中日月",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Prototype Amber": {
+    "icon": "UI_EquipIcon_Catalyst_Proto",
+    "nameJp": "金珀·試作",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Mappa Mare": {
+    "icon": "UI_EquipIcon_Catalyst_Exotic",
+    "nameJp": "万国諸海の図譜",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Blackcliff Agate": {
+    "icon": "UI_EquipIcon_Catalyst_Blackrock",
+    "nameJp": "黒岩の緋玉",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Eye of Perception": {
+    "icon": "UI_EquipIcon_Catalyst_Truelens",
+    "nameJp": "昭心",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Wine and Song": {
+    "icon": "UI_EquipIcon_Catalyst_Outlaw",
+    "nameJp": "ダークアレイの酒と詩",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Frostbearer": {
+    "icon": "UI_EquipIcon_Catalyst_Everfrost",
+    "nameJp": "冬忍びの実",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Dodoco Tales": {
+    "icon": "UI_EquipIcon_Catalyst_Ludiharpastum",
+    "nameJp": "ドドコの物語",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Hakushin Ring": {
+    "icon": "UI_EquipIcon_Catalyst_Bakufu",
+    "nameJp": "白辰の輪",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Oathsworn Eye": {
+    "icon": "UI_EquipIcon_Catalyst_Jyanome",
+    "nameJp": "誓いの明瞳",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Wandering Evenstar": {
+    "icon": "UI_EquipIcon_Catalyst_Pleroma",
+    "nameJp": "彷徨える星",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Fruit of Fulfillment": {
+    "icon": "UI_EquipIcon_Catalyst_Arakalari",
+    "nameJp": "満悦の実",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Sacrificial Jade": {
+    "icon": "UI_EquipIcon_Catalyst_Yue",
+    "nameJp": "古祠の瓏",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Flowing Purity": {
+    "icon": "UI_EquipIcon_Catalyst_Vorpal",
+    "nameJp": "純水流華",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Ballad of the Boundless Blue": {
+    "icon": "UI_EquipIcon_Catalyst_DandelionPoem",
+    "nameJp": "果てなき紺碧の唄",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Ash-Graven Drinking Horn": {
+    "icon": "UI_EquipIcon_Catalyst_ConchSprayer",
+    "nameJp": "蒼紋の角杯",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Waveriding Whirl": {
+    "icon": "UI_EquipIcon_Catalyst_Umpakati",
+    "nameJp": "波乗りの旋回",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Ring of Yaxche": {
+    "icon": "UI_EquipIcon_Catalyst_Isikhulu",
+    "nameJp": "ヤシュチェの環",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Etherlight Spindlelute": {
+    "icon": "UI_EquipIcon_Catalyst_SeeliesLute",
+    "nameJp": "天光のリュート",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Blackmarrow Lantern": {
+    "icon": "UI_EquipIcon_Catalyst_Ilmarinen",
+    "nameJp": "烏髄の孤灯",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Dawning Frost": {
+    "icon": "UI_EquipIcon_Catalyst_Ziedas",
+    "nameJp": "霜辰",
+    "type": "Catalyst",
+    "rarity": 4
+  },
+  "Skyward Atlas": {
+    "icon": "UI_EquipIcon_Catalyst_Dvalin",
+    "nameJp": "天空の巻",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Lost Prayer to the Sacred Winds": {
+    "icon": "UI_EquipIcon_Catalyst_Fourwinds",
+    "nameJp": "四風原典",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Lost Ballade": {
+    "icon": "UI_EquipIcon_Catalyst_Apprentice",
+    "nameJp": "散逸した叙事詩",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Memory of Dust": {
+    "icon": "UI_EquipIcon_Catalyst_Kunwu",
+    "nameJp": "浮世の錠",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Jadefall's Splendor": {
+    "icon": "UI_EquipIcon_Catalyst_Morax",
+    "nameJp": "碧落の瓏",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Everlasting Moonglow": {
+    "icon": "UI_EquipIcon_Catalyst_Kaleido",
+    "nameJp": "不滅の月華",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Kagura's Verity": {
+    "icon": "UI_EquipIcon_Catalyst_Narukami",
+    "nameJp": "神楽の真意",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "A Thousand Floating Dreams": {
+    "icon": "UI_EquipIcon_Catalyst_Ayus",
+    "nameJp": "千夜に浮かぶ夢",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Tulaytullah's Remembrance": {
+    "icon": "UI_EquipIcon_Catalyst_Alaya",
+    "nameJp": "トゥライトゥーラの記憶",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Cashflow Supervision": {
+    "icon": "UI_EquipIcon_Catalyst_Wheatley",
+    "nameJp": "凛流の監視者",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Tome of the Eternal Flow": {
+    "icon": "UI_EquipIcon_Catalyst_Iudex",
+    "nameJp": "久遠流転の大典",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Crane's Echoing Call": {
+    "icon": "UI_EquipIcon_Catalyst_MountainGale",
+    "nameJp": "鶴鳴の余韻",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Surf's Up": {
+    "icon": "UI_EquipIcon_Catalyst_MechaPufferfish",
+    "nameJp": "サーフィンタイム",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Starcaller's Watch": {
+    "icon": "UI_EquipIcon_Catalyst_Figurines",
+    "nameJp": "祭星者の眺め",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Sunny Morning Sleep-In": {
+    "icon": "UI_EquipIcon_Catalyst_SakuraFan",
+    "nameJp": "寝正月の初晴",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Vivid Notions": {
+    "icon": "UI_EquipIcon_Catalyst_VaresaTransformer",
+    "nameJp": "ヴィヴィッド・ハート",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Nightweaver's Looking Glass": {
+    "icon": "UI_EquipIcon_Catalyst_MenulisRing",
+    "nameJp": "夜を紡ぐ天鏡",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Reliquary of Truth": {
+    "icon": "UI_EquipIcon_Catalyst_Sistrum",
+    "nameJp": "真言の匣",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Nocturne's Curtain Call": {
+    "icon": "UI_EquipIcon_Catalyst_Brisingamen",
+    "nameJp": "帳の夜曲",
+    "type": "Catalyst",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Favonius Warbow": {
+    "icon": "UI_EquipIcon_Bow_Zephyrus",
+    "nameJp": "西風猟弓",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "The Stringless": {
+    "icon": "UI_EquipIcon_Bow_Troupe",
+    "nameJp": "絶弦",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Sacrificial Bow": {
+    "icon": "UI_EquipIcon_Bow_Fossil",
+    "nameJp": "祭礼の弓",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Royal Bow": {
+    "icon": "UI_EquipIcon_Bow_Theocrat",
+    "nameJp": "旧貴族長弓",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Rust": {
+    "icon": "UI_EquipIcon_Bow_Recluse",
+    "nameJp": "弓蔵",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Prototype Crescent": {
+    "icon": "UI_EquipIcon_Bow_Proto",
+    "nameJp": "澹月·試作",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Compound Bow": {
+    "icon": "UI_EquipIcon_Bow_Exotic",
+    "nameJp": "リングボウ",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Blackcliff Warbow": {
+    "icon": "UI_EquipIcon_Bow_Blackrock",
+    "nameJp": "黒岩の戦弓",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "The Viridescent Hunt": {
+    "icon": "UI_EquipIcon_Bow_Viridescent",
+    "nameJp": "蒼翠の狩猟弓",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Alley Hunter": {
+    "icon": "UI_EquipIcon_Bow_Outlaw",
+    "nameJp": "ダークアレイの狩人",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Fading Twilight": {
+    "icon": "UI_EquipIcon_Bow_Fallensun",
+    "nameJp": "落霞",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Mitternachts Waltz": {
+    "icon": "UI_EquipIcon_Bow_Nachtblind",
+    "nameJp": "幽夜のワルツ",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Windblume Ode": {
+    "icon": "UI_EquipIcon_Bow_Fleurfair",
+    "nameJp": "風花の頌歌",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Hamayumi": {
+    "icon": "UI_EquipIcon_Bow_Bakufu",
+    "nameJp": "破魔の弓",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Predator": {
+    "icon": "UI_EquipIcon_Bow_Predator",
+    "nameJp": "プレデター",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Mouun's Moon": {
+    "icon": "UI_EquipIcon_Bow_Maria",
+    "nameJp": "曚雲の月",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "King's Squire": {
+    "icon": "UI_EquipIcon_Bow_Arakalari",
+    "nameJp": "王の近侍",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "End of the Line": {
+    "icon": "UI_EquipIcon_Bow_Fin",
+    "nameJp": "竭沢",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Ibis Piercer": {
+    "icon": "UI_EquipIcon_Bow_Ibis",
+    "nameJp": "トキの嘴",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Scion of the Blazing Sun": {
+    "icon": "UI_EquipIcon_Bow_Gurabad",
+    "nameJp": "烈日の後嗣",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Song of Stillness": {
+    "icon": "UI_EquipIcon_Bow_Vorpal",
+    "nameJp": "静寂の唄",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Cloudforged": {
+    "icon": "UI_EquipIcon_Bow_Ultimatum",
+    "nameJp": "築雲",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Range Gauge": {
+    "icon": "UI_EquipIcon_Bow_Mechanic",
+    "nameJp": "レンジゲージ",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Flower-Wreathed Feathers": {
+    "icon": "UI_EquipIcon_Bow_Umpakati",
+    "nameJp": "花飾りの羽",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Chain Breaker": {
+    "icon": "UI_EquipIcon_Bow_Isikhulu",
+    "nameJp": "チェーンブレイカー",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Sequence of Solitude": {
+    "icon": "UI_EquipIcon_Bow_Stinger",
+    "nameJp": "冷寂の音",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Snare Hook": {
+    "icon": "UI_EquipIcon_Bow_Ilmarinen",
+    "nameJp": "羅網の針",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Rainbow Serpent's Rain Bow": {
+    "icon": "UI_EquipIcon_Bow_ElegguaBow",
+    "nameJp": "虹蛇の雨弦",
+    "type": "Bow",
+    "rarity": 4
+  },
+  "Skyward Harp": {
+    "icon": "UI_EquipIcon_Bow_Dvalin",
+    "nameJp": "天空の翼",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Amos' Bow": {
+    "icon": "UI_EquipIcon_Bow_Amos",
+    "nameJp": "アモスの弓",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": true
+  },
+  "Elegy for the End": {
+    "icon": "UI_EquipIcon_Bow_Widsith",
+    "nameJp": "終焉を嘆く詩",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Kunwu's Wyrmbane": {
+    "icon": "UI_EquipIcon_Bow_Hunters",
+    "nameJp": "昆吾の堕龍",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Primordial Jade Vista": {
+    "icon": "UI_EquipIcon_Bow_Hunters",
+    "nameJp": "高価なオーブ",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Mirror Breaker": {
+    "icon": "UI_EquipIcon_Bow_Hunters",
+    "nameJp": "壊れた鏡",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Polar Star": {
+    "icon": "UI_EquipIcon_Bow_Worldbane",
+    "nameJp": "冬極の白星",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Aqua Simulacra": {
+    "icon": "UI_EquipIcon_Bow_Kirin",
+    "nameJp": "若水",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Thundering Pulse": {
+    "icon": "UI_EquipIcon_Bow_Narukami",
+    "nameJp": "飛雷の鳴弦",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Hunter's Path": {
+    "icon": "UI_EquipIcon_Bow_Ayus",
+    "nameJp": "狩人の道",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "The First Great Magic": {
+    "icon": "UI_EquipIcon_Bow_Pledge",
+    "nameJp": "始まりの大魔術",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Silvershower Heartstrings": {
+    "icon": "UI_EquipIcon_Bow_Arcdange",
+    "nameJp": "白雨心弦",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "Astral Vulture's Crimson Plumage": {
+    "icon": "UI_EquipIcon_Bow_Qoyllorsnova",
+    "nameJp": "星鷲の紅き羽",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  },
+  "The Daybreak Chronicles": {
+    "icon": "UI_EquipIcon_Bow_Arianna",
+    "nameJp": "暁を告げる歴史",
+    "type": "Bow",
+    "rarity": 5,
+    "isStandard": false
+  }
+}
