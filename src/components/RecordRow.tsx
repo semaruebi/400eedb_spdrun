@@ -69,7 +69,7 @@ export function RecordRow({ record, rank }: Props) {
                             title={charNameJp}
                         >
                             {iconUrl ? (
-                                <img src={iconUrl} alt={name || ''} className="w-full h-full object-cover scale-125" />
+                                <img src={iconUrl} alt={name || ''} className="w-full h-full object-cover scale-125 -translate-y-2" />
                             ) : (
                                 <span className="flex items-center justify-center h-full text-white text-xs">
                                     {name?.charAt(0) || '?'}

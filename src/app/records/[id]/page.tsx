@@ -144,7 +144,7 @@ export default async function RecordDetailPage({ params }: Props) {
                                                                     rc.character?.element === 'Dendro' ? 'border-green-500' : 'border-slate-600'}
                                          `}>
                                             {iconUrl ? (
-                                                <img src={iconUrl} alt={rc.character?.name} className="w-full h-full object-cover scale-110 mt-1" />
+                                                <img src={iconUrl} alt={rc.character?.name} className="w-full h-full object-cover scale-125 -translate-y-2" />
                                             ) : (
                                                 <div className="w-full h-full flex items-center justify-center text-xs">{rc.character?.name[0]}</div>
                                             )}
