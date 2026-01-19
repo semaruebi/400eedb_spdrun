@@ -5,7 +5,7 @@ import { CHARACTER_MAP } from "@/data/localization";
 import IconMap from "@/data/character_data.json";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { PlayCircle, User, Crown } from "lucide-react";
+import { PlayCircle, User, Swords } from "lucide-react";
 
 type Props = {
     record: RecordWithDetails;
@@ -63,22 +63,25 @@ export function RecordRow({ record, rank }: Props) {
                     return (
                         <div
                             key={idx}
-                            className={`relative w-12 h-12 rounded-full border-2 bg-slate-800 overflow-hidden shadow-lg
-                                ${isMainAttacker ? 'border-yellow-400 z-20' : 'border-slate-700 z-10'}
+                            className={`relative w-12 h-12
+                                ${isMainAttacker ? 'z-20' : 'z-10'}
                                 hover:z-30 hover:scale-110 transition-transform cursor-help`}
                             title={charNameJp}
                         >
-                            {iconUrl ? (
-                                <img src={iconUrl} alt={name || ''} className="w-full h-full object-cover scale-125 -translate-y-2" />
-                            ) : (
-                                <span className="flex items-center justify-center h-full text-white text-xs">
-                                    {name?.charAt(0) || '?'}
-                                </span>
-                            )}
+                            <div className={`w-full h-full rounded-full border-2 bg-slate-800 overflow-hidden shadow-lg
+                                ${isMainAttacker ? 'border-yellow-400' : 'border-slate-700'}`}>
+                                {iconUrl ? (
+                                    <img src={iconUrl} alt={name || ''} className="w-full h-full object-cover scale-125 -translate-y-2" />
+                                ) : (
+                                    <span className="flex items-center justify-center h-full text-white text-xs">
+                                        {name?.charAt(0) || '?'}
+                                    </span>
+                                )}
+                            </div>
                             {/* メインアタッカーバッジ */}
                             {isMainAttacker && (
-                                <div className="absolute -top-1 -right-1 w-5 h-5 bg-yellow-500 rounded-full flex items-center justify-center shadow-lg border border-yellow-300">
-                                    <Crown className="w-3 h-3 text-yellow-900" />
+                                <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-red-600 rounded-full flex items-center justify-center shadow-xl border border-white/30 z-30">
+                                    <Swords className="w-3 h-3 text-white" />
                                 </div>
                             )}
                         </div>
